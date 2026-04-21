@@ -10,11 +10,11 @@ bonus = input("Recebeu bonus por desempenho? (s / n): ")
 
 def horasextras():
     valextra = sal * 0.015
-    salcextra = (valextra * extra) + sal
+    return valextra
 
 def descfaltas():
     desc = sal * 0.02
-    descfinal = ((desc * falta) - sal) * -1
+    return desc
 
 def calcbonus():
     if cargo == 1 and bonus == "s":
@@ -33,10 +33,11 @@ def calcbonus():
         bonss = 0
     else:
         print("Erro! Tente novamente!")
+    return bonss
 
-total_extra = horasextras()
-total_desc = descfaltas()
-total_bonus = calbonus()
+valextra = horasextras()
+desc = descfaltas()
+bonss = calcbonus()
 
 btotal = valextra + bonss
 salariofinal = sal + btotal - desc
