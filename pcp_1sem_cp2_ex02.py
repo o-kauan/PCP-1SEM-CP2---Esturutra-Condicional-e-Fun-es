@@ -1,4 +1,3 @@
-# Exercício 10:
 lado_1 = float(input("Digite o valor do lado 1: "))
 lado_2 = float(input("Digite o valor do lado 2: "))
 lado_3 = float(input("Digite o valor do lado 3: "))
