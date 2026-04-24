@@ -1,4 +1,4 @@
-# PCP-1SEM-CP2---Esturutra-Condicional-e-Fun-es
+# PCP-1SEM-CP2---Esturutra-Condicional-e-Funções
 Kauan Damasceno de Lima RM 573727
 
 José Augusto Ribeiro Freire Manfrinato RM 571151
